@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Primary Meta Tags -->
+  <title>Neurofire.link | Neurons That Wire Together, Fire Together</title>
+  <meta name="title" content="Neurofire.link | Neurons That Wire Together, Fire Together">
+  <meta name="description" content="Evolve your consciousness by harnessing the power of neuroplasticity. Neurons that fire together, wire together—ignite your mind!">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.neurofire.link/">
+  <meta property="og:title" content="Neurofire.link | Neurons That Wire Together, Fire Together">
+  <meta property="og:description" content="Evolve your consciousness by harnessing the power of neuroplasticity. Neurons that fire together, wire together—ignite your mind!">
+  <meta property="og:image" content="https://www.neurofire.link/favicon/favicon.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.neurofire.link/">
+  <meta property="twitter:title" content="Neurofire.link | Neurons That Wire Together, Fire Together">
+  <meta property="twitter:description" content="Evolve your consciousness by harnessing the power of neuroplasticity. Neurons that fire together, wire together—ignite your mind!">
+  <meta property="twitter:image" content="https://www.neurofire.link/favicon/favicon.png">
+
+  <!-- Favicon and Touch Icons (point everything to /favicon/favicon.png as requested) -->
+  <link rel="icon" href="/favicon/favicon.png" sizes="any" type="image/png">
+  <link rel="apple-touch-icon" href="/favicon/favicon.png">
+  <!-- Optionally add different sizes if you like, e.g., 32x32, 16x16, etc. -->
+
+  <!-- Windows / IE -->
+  <meta name="msapplication-TileImage" content="/favicon/favicon.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <title>Neurofire.link | Neurons That Wire Together, Fire Together</title>
+
+  <style>
+    /* 
+     ===========================
+     =       NEO-BRUTALIST     =
+     ===========================
+     Bright, clashing colors, thick borders, bold typography, 
+     organized chaos with purposeful white space.
+    */
+    :root {
+      /* COLOR PALETTE (neo-brutalist vibe) */
+      --bg-color: #ffff00;        /* neon yellow */
+      --text-color: #000000;      /* black */
+      --accent-color: #ff00ff;    /* neon magenta */
+      --secondary-accent: #00ff7f;/* neon greenish */
+      --border-color: #0000ff;    /* bright blue for accent borders */
+      --body-font: "Arial Black", sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--body-font);
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      overflow-x: hidden;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Utility for sections */
+    .section {
+      width: 100%;
+      padding: 4rem 3rem;
+      border-bottom: 8px solid var(--border-color);
+      border-left: 8px solid var(--border-color);
+      border-right: 8px solid var(--border-color);
+      position: relative;
+    }
+
+    /* 1) HERO SECTION */
+    .hero {
+      background-color: var(--accent-color);
+      text-align: center;
+      padding: 6rem 3rem;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+      color: var(--text-color);
+      border: 4px dashed var(--text-color);
+      display: inline-block;
+      padding: 1rem;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      color: var(--bg-color);
+      background-color: var(--text-color);
+      display: inline-block;
+      margin-bottom: 1rem;
+      padding: 0.5rem 1rem;
+      text-transform: uppercase;
+    }
+
+    /* 2) ONE RAW STATEMENT */
+    .raw-statement {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      background-color: var(--bg-color);
+      margin-bottom: 0; /* to keep consistent spacing with next sections */
+    }
+
+    /* 3) DID-YOU-KNOW SECTION (Columns) */
+    .did-you-know {
+      background-color: var(--secondary-accent);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+
+    .did-you-know h3 {
+      flex: 1 0 100%;
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+      text-align: center;
+      border: 4px solid var(--border-color);
+      padding: 1rem;
+      background-color: var(--text-color);
+      color: var(--bg-color);
+    }
+
+    .info-column {
+      flex: 1 0 calc(50% - 2rem);
+      border: 4px dotted var(--text-color);
+      padding: 1.5rem;
+      background-color: var(--accent-color);
+      color: var(--text-color);
+      min-height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .info-column h4 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .info-column p {
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+
+    /* 4) ACTION BOX */
+    .action-box {
+      text-align: center;
+      background-color: var(--bg-color);
+      padding: 4rem 3rem;
+    }
+
+    .action-box button {
+      font-size: 2rem;
+      font-weight: bold;
+      padding: 1rem 2rem;
+      border: 4px solid var(--border-color);
+      background-color: var(--secondary-accent);
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+
+    .action-box button:hover {
+      background-color: var(--border-color);
+      color: var(--bg-color);
+    }
+
+    /* 5) SHORT EXERCISE */
+    #exercise {
+      background-color: var(--accent-color);
+      color: var(--text-color);
+      text-align: center;
+    }
+
+    #exercise h3 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+      border: 4px solid var(--text-color);
+      display: inline-block;
+      padding: 1rem 2rem;
+    }
+
+    #exercise ol {
+      list-style-type: decimal;
+      display: inline-block;
+      text-align: left;
+      margin-top: 2rem;
+      max-width: 600px;
+    }
+
+    #exercise li {
+      font-size: 1.5rem;
+      margin: 1rem 0;
+    }
+
+    /* 6) BRUTAL FOOTER */
+    .footer {
+      background-color: var(--bg-color);
+      text-align: center;
+      padding: 3rem;
+    }
+
+    .footer p {
+      font-size: 1.25rem;
+      font-weight: bold;
+      line-height: 1.4;
+    }
+
+    .resources-link {
+      display: block;
+      margin-top: 1rem;
+      font-size: 1rem;
+      color: var(--accent-color);
+      text-decoration: underline;
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+      .raw-statement {
+        font-size: 1.5rem;
+      }
+      .did-you-know {
+        flex-direction: column;
+      }
+      .info-column {
+        flex: 1 0 100%;
+      }
+      .action-box button {
+        font-size: 1.5rem;
+      }
+      #exercise h3 {
+        font-size: 2rem;
+      }
+      #exercise li {
+        font-size: 1.2rem;
+      }
+      .footer p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1) HERO SECTION -->
+  <section class="section hero">
+    <h1>🔥 NEURONS THAT WIRE TOGETHER, FIRE TOGETHER 🔥</h1>
+    <h2>Evolve your consciousness</h2>
+  </section>
+
+  <!-- 2) ONE RAW STATEMENT -->
+  <section class="section raw-statement">
+    <p>EVERY THOUGHT YOU REPEAT MAKES YOUR BRAIN REWIRE. CHOOSE WISELY.</p>
+  </section>
+
+  <!-- 3) DID-YOU-KNOW SECTION (Columns) -->
+  <section class="section did-you-know">
+    <h3>Did You Know?</h3>
+    <div class="info-column">
+      <h4>Neuroplasticity</h4>
+      <p>
+        Your brain can literally reshape itself. Each repeated thought 
+        or action strengthens the connections between neurons, forming 
+        new “brain highways.”
+      </p>
+    </div>
+    <div class="info-column">
+      <h4>Daily Power Moves</h4>
+      <p>
+        Little habits—like learning a new word or practicing mindfulness—can 
+        prime your brain for lasting, positive change. Small steps, big rewires!
+      </p>
+    </div>
+  </section>
+
+  <!-- 4) ACTION BOX -->
+  <section class="section action-box">
+    <button onclick="document.getElementById('exercise').scrollIntoView({ behavior: 'smooth' });">
+      Start Wiring ⚡️
+    </button>
+  </section>
+
+  <!-- 5) SHORT EXERCISE -->
+  <section id="exercise" class="section">
+    <h3>🔥🔥 Train Your Neurons</h3>
+    <ol>
+      <li>
+        <strong>Focus on One Thought:</strong> Choose a single empowering word 
+        (e.g., “Strength”, “Peace”, or “Clarity”).
+      </li>
+      <li>
+        <strong>Repeat It 10 Times:</strong> Close your eyes, say it in your 
+        mind 10 times slowly.
+      </li>
+      <li>
+        <strong>Visualize Your Neurons:</strong> Imagine them lighting up 
+        each time you say it.
+      </li>
+    </ol>
+  </section>
+
+  <!-- 6) BRUTAL FOOTER -->
+  <section class="section footer">
+    <p>
+      This is it. Neurons that fire together, wire together.<br>
+      Create your reality—one thought at a time.
+    </p>
+    <a class="resources-link" href="#0">Resources (Optional)</a>
+  </section>
+
+</body>
+</html>
