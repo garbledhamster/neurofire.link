@@ -14,32 +14,27 @@
   <meta property="og:url" content="https://www.neurofire.link/">
   <meta property="og:title" content="Neurofire.link | Neurons That Wire Together, Fire Together">
   <meta property="og:description" content="Evolve your consciousness by harnessing the power of neuroplasticity. Neurons that fire together, wire together—ignite your mind!">
-  <meta property="og:image" content="https://www.neurofire.link/data/favicon/android-chrome-512x512.png">
+  <meta property="og:image" content="https://www.neurofire.link/favicon/favicon.png">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://www.neurofire.link/">
   <meta property="twitter:title" content="Neurofire.link | Neurons That Wire Together, Fire Together">
   <meta property="twitter:description" content="Evolve your consciousness by harnessing the power of neuroplasticity. Neurons that fire together, wire together—ignite your mind!">
-  <meta property="twitter:image" content="https://www.neurofire.link/data/favicon/android-chrome-512x512.png">
+  <meta property="twitter:image" content="https://www.neurofire.link/favicon/favicon.png">
 
-  <!-- Favicon / Touch Icons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="data/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="data/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="data/favicon/favicon-16x16.png">
-  <link rel="manifest" href="data/favicon/site.webmanifest">
-  <link rel="shortcut icon" href="data/favicon/favicon.ico">
+  <!-- Favicon and Touch Icons (point everything to /favicon/favicon.png as requested) -->
+  <link rel="icon" href="/favicon/favicon.png" sizes="any" type="image/png">
+  <link rel="apple-touch-icon" href="/favicon/favicon.png">
+  <!-- Optionally add different sizes if you like, e.g., 32x32, 16x16, etc. -->
 
-  <!-- Android Icons -->
-  <link rel="icon" type="image/png" sizes="192x192" href="data/favicon/android-chrome-192x192.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="data/favicon/android-chrome-512x512.png">
-
-  <!-- Windows / Pinned Tiles -->
-  <meta name="msapplication-TileImage" content="data/favicon/android-chrome-192x192.png">
+  <!-- Windows / IE -->
+  <meta name="msapplication-TileImage" content="/favicon/favicon.png">
   <meta name="msapplication-TileColor" content="#FFFFFF">
   <meta name="theme-color" content="#FFFFFF">
 
-  <!-- Page Styles (Neo-Brutalist) -->
+  <title>Neurofire.link | Neurons That Wire Together, Fire Together</title>
+
   <style>
     /* 
      ===========================
@@ -120,7 +115,7 @@
       font-size: 2rem;
       font-weight: bold;
       background-color: var(--bg-color);
-      margin-bottom: 0; /* keep spacing consistent */
+      margin-bottom: 0; /* to keep consistent spacing with next sections */
     }
 
     /* 3) DID-YOU-KNOW SECTION (Columns) */
